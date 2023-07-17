@@ -1,20 +1,91 @@
-body{
+#bodyID {
     display: flex;
-    flex-direction: column;
+    background-color: rgb(0, 213, 255);
+    border-color: black;
+    text-align: center;
 }
 
-main{
+#mainID {
     display: flex;
+    border-color: black;
+    text-align: justify;
+    text-indent: 0ch;
+}
+
+#headerID {
+    flex-direction: column;
+    background-color: rgb(42, 128, 165);
+    border-color: black;
+    text-align: center;
+}
+
+body, main{
+    flex-direction: column;
+    background-color: rgb(42, 136, 165);
+    border-color: black;
+    text-align: center;
+}
+
+#footerid {
+    flex-direction: column;
+    background-color: rgb(42, 132, 165);
+    border-color: black;
+}
+
+
+
+#articleID {
     flex-direction: row;
     flex: auto;
-    border: 2px rgb(165, 132, 132) solid;
-}
-article{
     flex: 2;
-    border: 2px rgb(130, 93, 93) solid;
     overflow-y: auto;
+    background-color: darkblue;
+    border-color: black;
 }
-aside{
+
+#asideID {
+    flex-direction: row;
+    flex: auto;
     flex: 1;
     overflow-y: auto;
+    background-color: blue;
+    border-color: black;
+}
+
+.paraID {
+    color: aqua;
+}
+
+P {
+    color: blue;
+}
+
+.titleClass {
+    color: blue;
+}
+
+table {
+    color: rgb(69, 0, 139);
+    border-color: black;
+    text-align: center;
+    text-indent: right;
+}
+
+td {
+   text-align: center;
+   text-align: justify;
+}
+tr {
+    text-align: center;
+    text-align: justify;
+}
+
+li {
+    color: darkcyan;
+    text-align: center;
+}
+
+.twitter-tweet {
+    text-align: inherit;
+    text-indent: inherit;
 }
